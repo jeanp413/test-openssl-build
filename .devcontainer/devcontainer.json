@@ -19,14 +19,14 @@
         ]
       }
     },
-    "forwardPorts": [
-      9200,
-      5601,
-      9229,
-      9230,
-      9231,
-      9001
-    ],
+    // "forwardPorts": [
+    //   9200,
+    //   5601,
+    //   9229,
+    //   9230,
+    //   9231,
+    //   9001
+    // ],
     "postStartCommand": "${containerWorkspaceFolder}/.devcontainer/scripts/post_start.sh",
     "remoteUser": "vscode",
     "containerEnv": {
